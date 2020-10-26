@@ -14,10 +14,15 @@ header{
   text-align: center;
 }
 
+.portfolio{
+  text-align: center;
+}
+
 .portfolio .col-xs-12{
   height: 300px;
   padding: 15px;
-  border-radius: 5%;
+  border: 10px solid white;
+  border-radius: 2%;
 }
 
 #house{
