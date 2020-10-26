@@ -11,5 +11,35 @@ header{
   height: 100vh;
   background-color: #1ABC9C;
   color: white;
-  text-align: center;  
+  text-align: center;
+}
+
+.portfolio .col-xs-12{
+  height: 300px;
+  padding: 15px;
+  border-radius: 5%;
+}
+
+#house{
+  background-color: #BA4B63;
+}
+
+#cake{
+  background-color: #1EA4B6;
+}
+
+#circus{
+  background-color: #140F0F;
+}
+
+#joypad{
+  background-color: #1C83C1;
+}
+
+#safe{
+  background-color: #0E38B5;
+}
+
+#submarine{
+  background-color: #CCB2A3;
 }
