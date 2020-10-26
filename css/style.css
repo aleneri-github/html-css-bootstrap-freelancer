@@ -1,8 +1,15 @@
 [class*='col-']{
-  height: 100px;  
+  height: 100px;
   border: 1px solid black;
 }
 
 header{
   background-color: #2C3E50;
+}
+
+.jumbotron{
+  height: 100vh;
+  background-color: #1ABC9C;
+  color: white;
+  text-align: center;  
 }
