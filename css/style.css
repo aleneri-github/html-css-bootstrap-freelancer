@@ -1,6 +1,6 @@
 [class*='col-']{
   height: 100px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 header{
@@ -47,4 +47,27 @@ header{
 
 #submarine{
   background-color: #CCB2A3;
+}
+
+.about .col-xs-12{
+  height: 60vh;
+  background-color: #1ABC9C;
+  color: white;
+  text-align: center;
+}
+
+.contact-me .col-xs-12{
+  height: 100vh;
+  background-color: #FFFFFF;
+  color: #333333;
+}
+
+.top-footer{
+  background-color: #3A546D;
+  height: 250px;
+}
+
+.bottom-footer{
+  background-color: #2C3E50;
+  height: 150px;
 }
