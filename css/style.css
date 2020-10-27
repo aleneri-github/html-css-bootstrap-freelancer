@@ -34,6 +34,10 @@
   background-color: #1ABC9C;
 }
 
+#jumbotron{
+  height: 200px;
+}
+
 .portfolio{
   margin-bottom: 40px;
 }
