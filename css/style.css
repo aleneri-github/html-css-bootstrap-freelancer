@@ -27,3 +27,13 @@
   height: 60vh;
   background-color: #FFFFFF;
 }
+
+.footer-top{
+  height: 50vh;
+  background-color: #3A546D;
+}
+
+.footer-bottom{
+  height: 10vh;
+  background-color: #2C3E50;
+}
