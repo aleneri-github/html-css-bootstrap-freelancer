@@ -2,6 +2,11 @@
   color: white;
 }
 
+h1{
+  text-align: center;
+  line-height: 450px;
+}
+
 .header_top_left span{
   position: absolute;
   top: 25px;
