@@ -2,8 +2,26 @@
   color: white;
 }
 
-h2{
+.header_top_left span{
+  position: absolute;
+  top: 25px;
+  left: 15px;
   font-weight: bolder;
+
+}
+
+.header_top_left,
+.menu{
+  position: relative;
+}
+
+.my_btn{
+  position: absolute;
+  top: 25px;
+  right: 15px;
+  background-color: #1ABC9C;
+  color: white;
+  border:0;
 }
 
 .header_top{
