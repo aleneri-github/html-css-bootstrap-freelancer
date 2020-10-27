@@ -2,6 +2,8 @@
   color: white;
 }
 
+
+
 .text_jumbotron{
   text-align: center;
   position: absolute;
@@ -66,7 +68,6 @@ hr{
   font-weight: bolder;
   border: 2px solid white;
   line-height: 5px;
-  color: black;
 }
 
 .mystar{
@@ -76,7 +77,16 @@ hr{
 }
 
 .portfolio{
+  padding-top: 40px;
   margin-bottom: 40px;
+  color: #2C3E50;
+  text-align: center;
+}
+#portfolio_decoration{
+  color: #2C3E50;
+}
+#portfolio_hr_decoration{
+  border: 2px solid #2C3E50;
 }
 
 .element{
