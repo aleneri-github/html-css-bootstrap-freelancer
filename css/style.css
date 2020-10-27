@@ -100,8 +100,13 @@ hr{
 }
 
 .about{
-  height: 60vh;
+  height: 80vh;
+  text-align: center;
+  padding: 0 25px;
   background-color: #1ABC9C;
+}
+.about p{
+  margin-top: 15px;
 }
 
 .contact_me{
