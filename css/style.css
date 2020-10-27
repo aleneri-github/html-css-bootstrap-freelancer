@@ -90,12 +90,13 @@ hr{
 }
 
 .element{
-  height: 200px;  
+  height: 200px;
   margin-top: 15px;
 }
 
 .element img{
   height: 100%;
+  border-radius: 10px;
 }
 
 .about{
