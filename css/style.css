@@ -8,8 +8,17 @@
   background-color: #1ABC9C;
 }
 
+.portfolio{
+  margin-bottom: 40px;
+}
+
 .element{
   height: 200px;
   background-color: red;
   margin-top: 15px;
+}
+
+.about{
+  height: 60vh;
+  background-color: #1ABC9C;
 }
