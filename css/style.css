@@ -1,9 +1,9 @@
-.header-top{
+.header_top{
   height: 80px;
   background-color: #2C3E50;
 }
 
-.header-bottom{
+.header_bottom{
   height: 100vh;
   background-color: #1ABC9C;
 }
@@ -23,17 +23,17 @@
   background-color: #1ABC9C;
 }
 
-.contact-me{
+.contact_me{
   height: 60vh;
   background-color: #FFFFFF;
 }
 
-.footer-top{
+.footer_top{
   height: 50vh;
   background-color: #3A546D;
 }
 
-.footer-bottom{
+.footer_bottom{
   height: 10vh;
   background-color: #2C3E50;
 }
