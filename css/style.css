@@ -7,7 +7,6 @@
   top: 25px;
   left: 15px;
   font-weight: bolder;
-
 }
 
 .header_top_left,
@@ -30,11 +29,22 @@
 }
 
 .header_bottom{
-  height: 100vh;
+  height: 500px;
+  padding-top: 40px;
   background-color: #1ABC9C;
 }
 
+.position_relative{
+  position: relative;
+}
+
 #jumbotron{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+
   height: 200px;
 }
 
