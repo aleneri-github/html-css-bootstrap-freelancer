@@ -90,9 +90,12 @@ hr{
 }
 
 .element{
-  height: 200px;
-  background-color: red;
+  height: 200px;  
   margin-top: 15px;
+}
+
+.element img{
+  height: 100%;
 }
 
 .about{
