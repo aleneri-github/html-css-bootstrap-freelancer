@@ -1,75 +1,9 @@
-[class*='col-']{
-  height: 100px;
-  /* border: 1px solid black; */
-}
-
-
-
-header{
+.header-top{
+  height: 80px;
   background-color: #2C3E50;
 }
 
-.jumbotron{
+.header-bottom{
   height: 100vh;
   background-color: #1ABC9C;
-  color: white;
-  text-align: center;
-}
-
-.portfolio{
-  text-align: center;
-}
-
-.portfolio .col-xs-12{
-  height: 300px;
-  padding: 15px;
-  border: 10px solid white;
-  border-radius: 10%;
-}
-
-#house{
-  background-color: #BA4B63;
-}
-
-#cake{
-  background-color: #1EA4B6;
-}
-
-#circus{
-  background-color: #140F0F;
-}
-
-#joypad{
-  background-color: #1C83C1;
-}
-
-#safe{
-  background-color: #0E38B5;
-}
-
-#submarine{
-  background-color: #CCB2A3;
-}
-
-.about .col-xs-12{
-  height: 60vh;
-  background-color: #1ABC9C;
-  color: white;
-  text-align: center;
-}
-
-.contact-me .col-xs-12{
-  height: 100vh;
-  background-color: #FFFFFF;
-  color: #333333;
-}
-
-.top-footer{
-  background-color: #3A546D;
-  height: 250px;
-}
-
-.bottom-footer{
-  background-color: #2C3E50;
-  height: 150px;
 }
