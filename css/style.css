@@ -220,9 +220,22 @@ P{
 
 .contact_me{
   height: 80vh;
+  padding-top: 70px;
   text-align: center;
   background-color: #FFFFFF;
+  color: #2C3E50;
 }
+
+form input{
+  display: block;
+}
+
+
+
+
+
+
+
 
 
 .footer_top{
