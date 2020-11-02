@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- NOTE: GOOGLE FONTS -->
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Montserrat&display=swap" rel="stylesheet">
+<!-- NOTE: FONT AWESOME -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+<!-- NOTE: MIO FOGLIO DI STILE -->
 <link rel="stylesheet" href="css/style.css">
   <title>Start Bootstrap</title>
 </head>
@@ -15,13 +20,19 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-6 header_top_left">
-            <span class="text-uppercase">start bootstrap</span>
+            <h3>START BOOTSTRAP</h3>
+
           </div>
-          <div class="col-xs-6 menu">
-            <button type="button" class="btn btn-default my_btn">
+          <div class="col-xs-6 menu header_top_right">
+            <button type="button" class="btn btn-default my_btn visible-xs">
              <span class="text-uppercase">menu</span>  <span class="
               glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
             </button>
+            <ul class= "menu_top_right list-inline hidden-xs">
+              <li>   <h4>PORTFOLIO</h4>  </li>
+              <li>   <h4>ABOUT</h4>  </li>
+              <li>   <h4>CONTACT</h4>  </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -34,14 +45,11 @@
         <div class="row">
           <div class="col-xs-12 position_relative">
             <img id="jumbotron_img" src="img/avataaars.svg" alt="Avatar">
-            <div class="text_jumbotron">
-              <h1 class="text-uppercase">start bootstrap</h1>
-            <div class="star_decoration">
-               <hr> <span class="glyphicon glyphicon-star mystar" aria-hidden="true"></span>
-               <hr>
-            </div>
-            <h5>Graphic Artist - Web Designer - Illustrator</h5>
-            </div>
+
+
+            <h1>START BOOTSTRAP</h1>
+
+
           </div>
         </div>
       </div>
@@ -52,11 +60,8 @@
   <main>
     <!-- NOTE: Sezione Portfolio -->
     <div class="portfolio">
-      <h2>PORTFOLIO</h2>
-      <div class="star_decoration">
-         <hr id="portfolio_hr_decoration"> <span id="portfolio_decoration" class="glyphicon glyphicon-star mystar" aria-hidden="true"></span>
-         <hr id="portfolio_hr_decoration">
-      </div>
+
+
       <div class="container">
         <div class="row">
 
@@ -105,9 +110,8 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
-            <h2 class="text-uppercase">about</h2>
-            <hr> <span class="glyphicon glyphicon-star mystar" aria-    hidden="true"></span>
-            <hr>
+
+
             <p>
               Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
             </p>
@@ -129,13 +133,8 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
-            <h3>CONTACT ME</h3>
-            <hr id="portfolio_hr_decoration"> <span id="portfolio_decoration" class="glyphicon glyphicon-star mystar" aria-hidden="true"></span>
-            <hr id="portfolio_hr_decoration">
-            <input  class="textbox" placeholder="Name" type="text" required>
-            <input class="textbox" placeholder="E-Mail" type="text" required>
-            <input class="textbox" placeholder="Phone Number" type="text" required>
-            <input class="textbox" placeholder="Message" type="textarea" required>
+
+
           </div>
         </div>
       </div>
