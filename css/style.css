@@ -54,9 +54,6 @@ P{
   color: #1ABC9C;
 }
 
-
-
-
 .header_top{
   position: fixed;
   top: 0;
@@ -76,9 +73,6 @@ P{
   border:0;
 }
 
-
-
-
 .header_bottom{
   margin-top: 80px;
   height: 100%;
@@ -87,8 +81,6 @@ P{
   background-color: #1ABC9C;
   text-align: center;
 }
-
-
 
 #jumbotron_img{
   max-height: 250px;
@@ -132,16 +124,12 @@ P{
   background-color: #2C3E50;
 }
 
-
-
-
 .portfolio{
   padding-top: 40px;
   padding-bottom: 60px;
   color: #2C3E50;
   text-align: center;
 }
-
 
 .element{
   position: relative;
@@ -175,18 +163,7 @@ P{
   display: block;
 }
 
-
-
-
-
-
-
-
-
-
-
 .about{
-  height: 80vh;
   text-align: center;
   padding: 50px 20px 50px 20px;
   background-color: #1ABC9C;
@@ -216,7 +193,6 @@ P{
 .btn_download:hover i{
   color: black;
 }
-
 
 .contact_me{
   padding-top: 70px;
@@ -256,25 +232,33 @@ textarea{
   background-color: #159A80;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer_top{
-  height: 50vh;
+  padding: 50px 0;
+  text-align: center;
   background-color: #3A546D;
 }
 
+.footer_top ul li{
+  height: 50px;
+  width: 50px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 10px 10px;
+}
+
+.footer_top ul li i{
+  font-size: 25px;
+  margin: 10px 10px;
+  vertical-align: middle;
+}
+
+.start_bootstrap{
+  color: #1ABC9C;
+  cursor: pointer;
+}
+
 .footer_bottom{
-  height: 10vh;
+  padding: 30px 0;
+  text-align: center;
   background-color: #2C3E50;
 }
