@@ -24,7 +24,7 @@ h4{
 }
 
 P{
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -36,17 +36,9 @@ P{
   line-height: 80px;
 }
 
-
-
-
-
-
-
-
-
-
 .header_top_left h3{
   vertical-align: middle;
+  cursor: pointer;
 }
 
 .menu_top_right{
@@ -54,15 +46,13 @@ P{
   text-align: right;
 }
 
+.menu_top_right h4{
+  cursor: pointer;
+}
 
-
-
-
-
-
-
-
-
+.menu_top_right h4:hover{
+  color: #1ABC9C;
+}
 
 
 
@@ -198,19 +188,35 @@ P{
 .about{
   height: 80vh;
   text-align: center;
-  padding: 0 25px;
+  padding: 50px 20px 50px 20px;
   background-color: #1ABC9C;
 }
 .about p{
-  margin-top: 15px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .btn_download{
   background-color: transparent;
   margin-top: 35px;
+  border: 1px solid #FFFFFF;
+  padding: 20px;
+  font-size: 25px;
 }
-.download{
-margin-left: 10px;
+.fa-download{
+  padding: 0 15px;
+  font-size: 25px;
+  margin-right: 10px;
 }
+
+.btn_download:hover {
+  background-color: #FFFFFF;
+  color: black;
+}
+.btn_download:hover i{
+  color: black;
+}
+
 
 .contact_me{
   height: 80vh;
