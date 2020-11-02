@@ -23,8 +23,8 @@ h4{
   font-family: 'Lato', sans-serif;
 }
 
-
 P{
+  font-size: 16px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -35,6 +35,15 @@ P{
 .header_top_right{
   line-height: 80px;
 }
+
+
+
+
+
+
+
+
+
 
 .header_top_left h3{
   vertical-align: middle;
@@ -58,42 +67,6 @@ P{
 
 
 
-
-
-.header_bottom{
-  margin-top: 80px;
-  height: 1000px;
-  padding-top: 50px;
-  background-color: #1ABC9C;
-}
-
-
-
-#jumbotron_img{
-  max-height: 250px;
-
-
-}
-
-.header_bottom h1{
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  padding-top: 60px;
-  transform: translate(-50%, -50%);
-}
-
-
-
-.my_btn{
-  position: absolute;
-  top: 25px;
-  right: 15px;
-  background-color: #1ABC9C;
-  color: white;
-  border:0;
-}
-
 .header_top{
   position: fixed;
   top: 0;
@@ -104,9 +77,70 @@ P{
   z-index: 2;
 }
 
+.my_btn{
+  position: absolute;
+  top: 25px;
+  right: 15px;
+  background-color: #1ABC9C;
+  color: white;
+  border:0;
+}
 
 
 
+
+.header_bottom{
+  margin-top: 80px;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  background-color: #1ABC9C;
+  text-align: center;
+}
+
+
+
+#jumbotron_img{
+  max-height: 250px;
+}
+
+.star_decoration{
+  line-height: 80px;
+  margin-bottom: 20px;
+}
+
+.star_decoration i{
+  font-size: 40px;
+  padding: 20px;
+  vertical-align: middle;
+}
+
+.star_decoration::before,
+.star_decoration::after{
+  content: "";
+  display: inline-block;
+  width: 100px;
+  height: 4px;
+  border-radius: 2px;
+}
+
+.star_decoration.star_decoration_white i{
+  color: white;
+}
+
+.star_decoration.star_decoration_white::before,
+.star_decoration.star_decoration_white::after{
+  background-color: white;
+}
+
+.star_decoration.star_decoration_blue i{
+  color: #2C3E50;
+}
+
+.star_decoration.star_decoration_blue::before,
+.star_decoration.star_decoration_blue::after{
+  background-color: #2C3E50;
+}
 
 
 
@@ -128,6 +162,14 @@ P{
   height: 100%;
   border-radius: 10px;
 }
+
+
+
+
+
+
+
+
 
 
 .about{
