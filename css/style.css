@@ -219,8 +219,8 @@ P{
 
 
 .contact_me{
-  height: 1000px;
   padding-top: 70px;
+  padding-bottom: 50px;
   text-align: center;
   background-color: #FFFFFF;
   color: #2C3E50;
@@ -243,6 +243,23 @@ textarea{
   border: 0px;
   border-bottom: 1px solid #2C3E50;
 }
+
+.send_btn{
+  display: block;
+  margin-left: 110px;
+  padding: 10px 20px;
+  border: 0;
+  background-color: #1ABC9C;
+  color: white;
+}
+.send_btn:hover{
+  background-color: #159A80;
+}
+
+
+
+
+
 
 
 
